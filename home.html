@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xano Copy</title>
+  <style>
+    body{
+        margin: auto;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+      background-color: white;
+      color:black;
+      height: 63px; 
+    }
+
+    .logo h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;                
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black; 
+      font-weight: bold;
+      padding: 5px 0;
+    }
+
+    .head_buttons button {
+      margin-left: 10px;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      
+    }
+    .main{
+      background-color:rgb(53, 53, 146);
+      display: flex;
+    }
+  .hero{
+    background-color: rgb(76, 55, 167);
+    padding-left: 30px;
+    
+  }
+   .hero h1{
+font-size: 52px;
+line-height: 60px;
+font-style: "Hanken Grotesk";
+color: 
+rgb(255, 255, 255);
+   }
+   .hero p{
+    font-size: 30px;
+    height: 340px;
+    color: white;
+   }
+    
+.image{
+   height: 50px;
+   width: 200px;
+}
+.sect_2 {
+  color: white;
+  padding: 40px;
+  background-color: rgb(44, 60, 153);
+  height: 1220px;
+}
+
+.sect_2 h2 {
+  margin-bottom: 20px;
+  font-size: 33px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;       /* Allows wrapping on smaller screens */
+  gap: 20px;  
+  height: 530px;           /* Space between cards */
+}
+
+.cards {
+  flex: 1 1 300px;       /* Each card takes min 300px, grows if space */
+  max-width: 350px;
+   font-size: 22px;
+  color:white;
+ 
+  border: solid yellow 2px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+ 
+}
+
+
+.cards img {
+  width: 60px;
+  height: 60px;
+  margin-top: 15px;
+  border-radius: 50%;
+}
+.sec_3 {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;          
+  padding: 40px;
+
+  gap: 30px;                      
+}
+
+.text_container {
+  flex: 1;                       
+  font-size: 18px;
+}
+
+.image_container {
+  flex: 1;                       
+  text-align: center;
+background-color:rgb(76, 55, 167);
+padding-left: 20px;
+padding-right: 20px;
+}
+.image_container p{
+    font-size: 20px;
+}
+.image_container img {
+  max-width: 100%;   /* responsive image */
+  height: auto;
+  border-radius: 10px;
+}
+.footer{
+    background-color:rgb(76, 55, 167) ;
+    display: flex;
+    gap: 50px;
+    height: 500px;
+    margin-top: 60px;
+     width: 100%;
+       flex-wrap: wrap;
+        padding: 40px;
+        width: 100%;
+      
+}
+.f1 a{
+   
+
+
+  color: #bbb;
+  text-decoration: none;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Logo -->
+    <div class="logo">
+      <h1>XANO</h1>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#">Platform</a></li>
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+    </nav>
+
+    <!-- Buttons -->
+    <div class="head_buttons">
+      <button>Login</button>
+      <button>Get Started</button>
+    </div>
+  </header>
+  <section>
+     <div class="main">
+        <div class="hero">
+            <h1>Your backend <br>just got smarter.</h1>
+           <p>Build AI-powered logic, connected APIs, and<br> autonomous agents — starting at just $25/month.</p>
+             <button id="btn1">Get for free</button>
+            <button>read announcements</button></div>
+           <div class="image">
+            <img src="image.png" style="width: 500px; height: 500px;">
+           </div>
+
+     </div>
+    </div>  
+</div>
+</section>
+
+<div class="sect_2">
+  <h2>Trusted by leading organizations</h2>
+  
+  <div class="cards-container">
+    <div class="cards">
+      <h3>EDUCATION APP</h3>
+      <h2>2 months</h2>
+      <h3>from start to launch</h3>
+      <p>“You cut down development time exponentially… This is the future of what everyone will be building on.”</p>
+      <img src="img.png" alt="User">
+      <h3>Luke St. Amand</h3>
+    </div>
+
+    <div class="cards">
+      <h3>SEARCH ENGINE</h3>
+      <h2>75% cost saving</h2>
+      <h3>over traditional development</h3>
+      <p>“You cut down development time exponentially… This is the future of what everyone will be building on.”</p>
+      <img src="img.png" alt="User">
+       <h3>Luke St. Amand</h3>
+    </div>
+
+    <div class="cards">
+      <h3>DATA TRANSFORMATION</h3>
+      <h2>3x increase</h2>
+      <h3>in development speed</h3>
+      <p>“You cut down development time exponentially… This is the future of what everyone will be building on.”</p>
+      <img src="img2.jpeg" alt="User">
+       <h3>Luke St. Amand</h3>
+    </div>
+  </div>
+   <h2>build your backend in three parts</h2>
+  <div class="sec_3">
+   
+       
+     <div class="text_container">
+        <h3>Platform preview</h3>
+         <h3>store data</h3>
+          <h3>connect to servive</h3>
+           <h3>customize workflows</h3>
+    </div>
+    <div class="image_container">
+        <img src="img1.png">
+        <p>Build the behind-the-scenes structure for your apps and workflows — 
+            all on one easy-to-use visual development platform.</p>
+
+    </div>
+</div>
+<footer class="footer">
+  <div class="f1">
+    <h2>XANO</h2>
+    <p>©2025 Xano. All Rights Reserved.</p>
+  </div>
+
+  <div class="f1">
+    <h2>Company</h2>
+    <a href="about.html">About Us</a><br>
+    <a href="contact.html">Contact Us</a><br>
+    <a href="careers.html">Careers</a><br>
+  </div>
+
+  <div class="f1">
+    <h2>Platform</h2>
+    <a href="overview.html">Overview</a><br>
+    <a href="database.html">Database</a><br>
+    <a href="server.html">Server</a><br>
+  </div>
+
+  <div class="f1">
+    <h2>Solution</h2>
+    <a href="citizen.html">Citizen Developer</a><br>
+    <a href="cities.html">Development Cities</a><br>
+    <a href="develop.html">Develop</a><br>
+  </div>
+
+  <div class="f1">
+    <h2>Legal</h2>
+    <a href="privacy.html">Privacy Policy</a><br>
+    <a href="terms.html">Terms of Service</a>
+  </div>
+
+  <div class="f1">
+    <h2>Resources</h2>
+    <a href="blog.html">Blog</a><br>
+    <a href="case.html">Case Studies</a><br>
+    <a href="actions.html">Xano Actions</a><br>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>
